@@ -45,14 +45,15 @@ idf.py menuconfig
 
 ```
 
-this is screen shot of job done.
+this is screen shot of job done.  
 ![esp-idf4.3_ubuntu_20.04_howto.JPG](esp-idf4.3_ubuntu_20.04_howto.JPG)
 
 .  
-the esp-idf version 4.3-dev
+the esp-idf version 4.3-dev  
 ![esp-idf4.3_ubuntu_20.04_howto_v.JPG](esp-idf4.3_ubuntu_20.04_howto_v.JPG)  
 
 
+following may skipped as some outdated info or incompletion, unless you want more detail
 ______________________________
 
 
