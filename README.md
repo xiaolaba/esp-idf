@@ -38,8 +38,69 @@ To start your own project based on an example, copy the example project director
 See the Getting Started guide links above for a detailed setup guide. This is a quick reference for common commands when working with ESP-IDF projects:
 
 ## Setup Build Environment
+ 
 
-### Ubuntu 20.04
+______________________________
+### Ubuntu 20.04, how to set up successfully
+Win10 + Ubuntu 20.04 used, how to here (https://github.com/xiaolaba/Win10_install_Ubuntu)  
+.  
+
+Espressif may still has to catch up from time to time for the documentation in order to benefits the developer more and easy of start up  
+ref:
+https://linuxconfig.org/ubuntu-20-04-python-version-switch-manager  
+https://docs.espressif.com/projects/esp-idf/en/v3.3/get-started/add-idf_path-to-profile.html  
+at user home directory  
+
+2020-OCT-07, this is one time deal script to from scratch to 'hello world' build
+```
+sudo apt update  
+ 
+mkdir esp  
+cd esp  
+git clone https://github.com/espressif/esp-idf  
+sudo apt install -y python  
+sudo apt install -y python-pip
+sudo apt install -y python3  
+sudo apt install -y python3-pip
+sudo apt install -y cmake  
+sudo apt list --upgradable  
+sudo apt -y upgrade  
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 1  
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 2  
+sudo update-alternatives --list python  
+sudo update-alternatives --config python  
+python -V  
+cd esp-idf  
+./install.sh  
+export IDF_PATH=~/esp/esp-idf  
+. ./export.sh  
+idf.py set-target esp32  
+cd ~/esp  
+cp -r $IDF_PATH/examples/get-started/hello_world .  
+cd ~/esp/hello_world
+idf.py set-target esp32
+idf.py menuconfig
+
+```
+
+this is screen shot of job done.
+![]()
+
+
+______________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 (See the Getting Started guide listed above for a full list of required steps with more details.)
 
