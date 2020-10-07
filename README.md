@@ -53,8 +53,8 @@ the esp-idf version 4.3-dev
 ![esp-idf4.3_ubuntu_20.04_howto_v.JPG](esp-idf4.3_ubuntu_20.04_howto_v.JPG)  
 
 
-following may skipped as some outdated info or incompletion, unless you want more detail
-______________________________
+following may skipped as some outdated info or incompletion, unless you want more detail on the own accords.  
+______________________________  
 
 
 
