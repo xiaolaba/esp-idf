@@ -6,7 +6,7 @@ Win10 + Ubuntu 20.04 used, how to, here (https://github.com/xiaolaba/Win10_insta
 real machine with Ubuntu 20.04 should works too.
 .  
 
-Espressif may still has to catch up from time to time for the documentation in order to benefits the developer more and easy of start up  
+Espressif may still has to catch up from time to time for the documentation in order to benefits the developer more and easy of start up.  
 ref:  
 https://linuxconfig.org/ubuntu-20-04-python-version-switch-manager  
 https://docs.espressif.com/projects/esp-idf/en/v3.3/get-started/add-idf_path-to-profile.html  
