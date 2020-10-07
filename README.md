@@ -2,7 +2,8 @@
 
 ______________________________
 ### Ubuntu 20.04, how to set up successfully
-Win10 + Ubuntu 20.04 used, how to here (https://github.com/xiaolaba/Win10_install_Ubuntu)  
+Win10 + Ubuntu 20.04 used, how to, here (https://github.com/xiaolaba/Win10_install_Ubuntu)  
+real machine with Ubuntu 20.04 should works too.
 .  
 
 Espressif may still has to catch up from time to time for the documentation in order to benefits the developer more and easy of start up  
@@ -11,8 +12,8 @@ https://linuxconfig.org/ubuntu-20-04-python-version-switch-manager
 https://docs.espressif.com/projects/esp-idf/en/v3.3/get-started/add-idf_path-to-profile.html  
 at user home directory  
 
-2020-OCT-07, this is one time deal script to from scratch to 'hello world' build
-esp-idf should be V4.3 upon setup done
+2020-OCT-07, this is one time deal script from scratch to 'hello world' build,  
+esp-idf should be V4.3 upon setup done.
 ```
 sudo apt update  
  
@@ -46,6 +47,10 @@ idf.py menuconfig
 
 this is screen shot of job done.
 ![esp-idf4.3_ubuntu_20.04_howto.JPG](esp-idf4.3_ubuntu_20.04_howto.JPG)
+
+.  
+the esp-idf version 4.3-dev
+![esp-idf4.3_ubuntu_20.04_howto_v.JPG](esp-idf4.3_ubuntu_20.04_howto_v.JPG)  
 
 
 ______________________________
