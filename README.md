@@ -39,6 +39,8 @@ See the Getting Started guide links above for a detailed setup guide. This is a 
 
 ## Setup Build Environment
 
+### Ubuntu 20.04
+
 (See the Getting Started guide listed above for a full list of required steps with more details.)
 
 * Install host build dependencies mentioned in the Getting Started guide.
