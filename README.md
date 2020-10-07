@@ -10,10 +10,10 @@ Espressif may still has to catch up from time to time for the documentation in o
 ref:  
 https://linuxconfig.org/ubuntu-20-04-python-version-switch-manager  
 https://docs.espressif.com/projects/esp-idf/en/v3.3/get-started/add-idf_path-to-profile.html  
-at user home directory  
+  
 
-2020-OCT-07, this is one time deal script from scratch to 'hello world' build,  
-esp-idf should be V4.3 upon setup done.
+2020-OCT-07, this is one time deal script from scratch to 'hello world' build,  esp-idf should be V4.3 upon setup done.
+at user home directory, following commands will do the job,
 ```
 sudo apt update  
  
